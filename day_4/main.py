@@ -1,4 +1,4 @@
-from bank_account import *
+from day_4.bank_app.bank_account import *
 
 def main():
     my_bank = BankAccount("Bob", 10000)

@@ -1,8 +1,9 @@
 import json
 import os
-from errors import *
+from bank_app.errors import *
 import functools
 import time
+
 class BankAccount():
     folder = "data"
     def __init__(self, owner, balance = 0, filename = "balance.json"):
